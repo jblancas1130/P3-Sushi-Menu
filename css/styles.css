@@ -8,6 +8,21 @@ body	{
 }
 /* END backgorund styling*/
 
+
+#scrollUp {
+bottom: 20px;
+right: 32px;
+width: 38px;
+height: 38px;
+background: url(../img/top.png) no-repeat;
+}
+
+a#scrollUp	{
+	
+	text-decoration: none;
+}
+
+
 a.thumbnail>img {color:white;}
 
 
@@ -48,8 +63,9 @@ small	{
 }
 
 
-.thumbnail	{
-	margin:5px;
+.thumbnails	{
+	margin-right: 41px;
+	margin-top:16px;
 }
 
 
@@ -58,15 +74,21 @@ li	{
 	
 }
 
+.logo	{
+	float:right;
+	margin-top: -16px;
+	margin-right: 24px;
+}
+
 
 
 h1	{
 	font-family: 'Federo', sans-serif;
 	font-size:25px;
-	margin-top: -36px;
-	margin-left: 132px;
+	margin-top: -71px;
+	margin-right: 419px;
 	color:#730d0d;
-	margin-bottom: 107px;
+	text-align: right;
 }
 
 .title2	{
@@ -76,23 +98,94 @@ h1	{
 	margin-top:33px;
 	
 }
-	
 
-.aboutus	{
-	font-family: 'Ubuntu', sans-serif;font-weight:400; 
-	font-size:16px;
-	margin-left: 172px;
-	margin-top: 78px;
+.tabs	{
+	font-family: 'Federo', sans-serif;
+	font-size:20px;
+	color:#ad9563; 
 	
 }
+
+.tabbable {
+	margin-top: -10px;
+}
+
+.tab-content {
+	overflow:hidden;
+}
+
+
+
+.nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus{
+	color:#730d0d;
+	font-size: 25px;
+}
+
+.aboutus	{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	margin-right: 86px;
+	margin-left: 12px;
+	margin-top: 1px;
+	margin-bottom: 40px;
+}
+	
+.nav-tabs {
+	width: 94%;
+}
+
+
+address	{
+	font-family: 'Ubuntu', sans-serif;font-weight:400; 
+}
+
+
+#visit	{
+	margin-left: 39px;
+	margin-top: 5px;
+}
+
+#hours	{
+	loat: right;
+	margin-top: 5px;
+}
+
+#follow	{
+	margin-right: -39px;
+	margin-top: 5px;
+	
+}
+
+
+a {
+	color: #000;
+	text-decoration:none;
+		
+}
+
+a:hover	{
+	color:#ede3c8;
+	text-decoration:none;
+	
+}
+
+.nav>li>a:hover {
+text-decoration: none;
+background-color:#730d0d; 
+}
+
 
 
 h2	{
 	font-family: 'Federo', sans-serif;
 	font-size:55px;
-	color:#ad9563;
-	text-align: center;
+	color:#730d0d;
+	text-align:left;
 	margin-right: 55px;
+	margin-bottom: 30px;
+	margin-top: 35px;
+	margin-left: -19px;
 	
 }
 
@@ -119,16 +212,17 @@ h5 	{
 
 h4	{
 	font-family: 'Federo', sans-serif;
-	font-size:25px;
-	color:#ad9563;
+	font-size:30px;
+	color:#ad9563; 
+	text-align: left;
+	margin-right:97px;
+	margin-bottom: 20px;
+	margin-left: -19px;
 	
 }
 
 
-.logo	{
-	margin-top: 46px;
-	margin-left:51px;
-}
+
 
 img.main	{
 	margin-top: 31px;
@@ -137,21 +231,30 @@ img.main	{
 	border-width:5px;
 	border-color:#ede3c8;
 	
+	
 }
 
 
-hr	{
+.top	{
+	margin-left:-23px;
+	margin-bottom: 42px;
+	margin-top: -29px;
 	
-	height: 1px;
-	width:100%;
-	background-color:#ad9563;
-	border:none;
+
 
 	}
 
 
+.sep	{
+	margin-left: 76px;
+	margin-top: 2px;
+	margin-bottom: 23px;
+}
 
-address	{
-	font-family: 'Ubuntu', sans-serif;font-weight:400; 
+.bottom	{
+	margin-left:-1px;
+	margin-bottom:15px;
+	margin-top: 31px;
+
 }
 
